@@ -30,7 +30,7 @@ public class ParabankTest {
             wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("customer.lastName"))).sendKeys("dave");
             wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("customer.address.street"))).sendKeys("Moti Chowk,, brahampuri");
             wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("customer.phoneNumber"))).sendKeys("9024930543");
-            wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("customer.username"))).sendKeys("gaurav");
+            //wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("customer.username"))).sendKeys("gaurav");
             wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("customer.password"))).sendKeys("Test@123");
             wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("repeatedPassword"))).sendKeys("Test@123");
             wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("customer.ssn"))).sendKeys("9024930543");
